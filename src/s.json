@@ -1,0 +1,59 @@
+{
+    "cod": "200",
+    "message": 0,
+    "cnt": 1,
+    "list": [
+        {
+            "dt": 1695999600,
+            "main": {
+                "temp": 15.3,
+                "feels_like": 15.26,
+                "temp_min": 15.3,
+                "temp_max": 15.41,
+                "pressure": 1023,
+                "sea_level": 1023,
+                "grnd_level": 1022,
+                "humidity": 91,
+                "temp_kf": -0.11
+            },
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 7.33,
+                "deg": 53,
+                "gust": 13.13
+            },
+            "visibility": 10000,
+            "pop": 1,
+            "rain": {
+                "3h": 6.57
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2023-09-29 15:00:00"
+        }
+    ],
+    "city": {
+        "id": 5128581,
+        "name": "New York",
+        "coord": {
+            "lat": 40.7143,
+            "lon": -74.006
+        },
+        "country": "US",
+        "population": 8175133,
+        "timezone": -14400,
+        "sunrise": 1695984608,
+        "sunset": 1696027356
+    }
+}
