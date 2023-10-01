@@ -1,4 +1,4 @@
-/* App.css */
+
 body {
   background-image: url('https://images.ctfassets.net/hrltx12pl8hq/6TIZLa1AKeBel0yVO7ReIn/1fc0e2fd9fcc6d66b3cc733aa2547e11/weather-images.jpg?fit=fill&w=1200&h=630'); /* Replace with the actual path to your image */
   background-size: cover; 
@@ -72,15 +72,12 @@ body {
   font-size: 18px;
   color: red;
 }
-/* App.css */
-/* ... other styles ... */
+
 
 .search-button {
-  background-color: #080808; /* Change the background color to blue */
+  background-color: #080808; 
   color: #fff;
-  /* Existing button styles */
 
-  /* Add these styles for the shine effect */
   position: relative;
   overflow: hidden;
 }
