@@ -1,4 +1,4 @@
-// src/api.js
+
 import axios from 'axios';
 
 const API_KEY = 'a9fb3cd1154fe31687545dca63628e79';
@@ -11,7 +11,7 @@ const fetchWeather = async (location) => {
         q: location,
         cnt : 1,
         appid: API_KEY,
-        units: 'metric', // Use 'imperial' for Fahrenheit
+        units: 'metric', 
       },
     });
     return response.data;
